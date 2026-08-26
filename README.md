@@ -12,9 +12,9 @@ la clase teórica.
 
 ## 1. Integrantes del grupo
 
-> ✏️ Completar antes de entregar:
-- Nombre 1 – código
-- Nombre 2 – código
+
+- Juan Pablo Hernandez Bravo
+
 
 ---
 
@@ -129,45 +129,3 @@ La base de datos SQLite (`gestionusuarios.db`) se crea automáticamente en la ra
 proyecto la primera vez que se ejecuta la aplicación.
 
 ---
-
-## 6. Subir el proyecto a GitHub (comandos de consola)
-
-```bash
-# 1. Inicializar el repositorio local
-git init
-
-# 2. Agregar todos los archivos
-git add .
-
-# 3. Primer commit
-git commit -m "Taller 2 - Gestion de usuarios aplicando principios SOLID"
-
-# 4. Crear el repositorio en GitHub (desde la web) y luego enlazarlo
-git remote add origin https://github.com/<usuario>/<nombre-repositorio>.git
-
-# 5. Subir el código
-git branch -M main
-git push -u origin main
-```
-
-> Recuerda incluir un `.gitignore` para no subir `target/` ni el archivo de base de datos
-> generado (`gestionusuarios.db`). Ya se incluye uno en la raíz del proyecto.
-
----
-
-## 7. Informe de entrega
-
-Recuerda entregar al docente un informe en PDF que incluya:
-1. Nombres de los integrantes del grupo.
-2. URL del repositorio de GitHub para clonar el proyecto.
-3. Breve explicación de cómo se aplicó cada principio SOLID (puede basarse en la tabla de la
-   sección 3 de este README).
-4. Capturas de pantalla de la aplicación en ejecución (login, registro, tablero por rol) y de
-   las pruebas unitarias pasando.
-
----
-
-## 8. Referencias usadas (tomadas de la guía del taller)
-
-- SQLite Java en IntelliJ IDEA: https://www.sqlitetutorial.net/sqlite-java/
-- Hashing with Argon2 in Java: https://www.baeldung.com/java-argon2-hashing
